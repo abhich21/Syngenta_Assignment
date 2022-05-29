@@ -1,0 +1,36 @@
+
+
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputDiv {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.circles {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 80px;
+}
+
+.circleMain {
+  display: grid;
+  margin-top: 50px;
+}
+
+.emptyDiv {
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+}
